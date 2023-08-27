@@ -29,6 +29,18 @@ function App() {
         localStorage.setItem('lastPasswords', JSON.stringify(updatedPasswords));
     };
 
+    const copyPasswordToClipboard = (password) => {
+        if (password) {
+            navigator.clipboard.writeText(password)
+                .then(() => {
+                    toast.success('Copied to your clipboard');
+                })
+                .catch((error) => {
+                    toast.error('Failed to copy: ' + error.message);
+                });
+        }
+    };
+
 
     const fieldsArray = [
         {
@@ -87,6 +99,7 @@ function App() {
         <section>
             <div></div>
             <div className="container">
+                <h2 className='heading'>PASSWORD GENERATOR</h2>
                 <form id='pg-form' onSubmit={handleOnSubmit}>
                     <div className="result">
                         <input type="text" placeholder='Minimum 6 character' id='result' readOnly value={result} />
@@ -126,12 +139,24 @@ function App() {
                 <br />
                 <div className="last-passwords">
                     <h4 className='password-header'>Last 5 Passwords:</h4><br />
-                    <ol>
-                        {lastPasswords.map((password, index) => (
-                            <li key={index}>{password}</li>
-                        ))}
-                    </ol>
+                    {lastPasswords.map((password, index) => (
+                        <div key={index} className="last-password">
+                            <div className="input-container">
+                                <input
+                                    className='input-prev-pass'
+                                    type="text"
+                                    readOnly
+                                    value={password}
+                                    onClick={() => copyPasswordToClipboard(password)}
+                                />
+
+                                <FaClipboard className='clipboard' style={{ color: 'royalblue' }} onClick={() => copyPasswordToClipboard(password)} />
+                            </div>
+                        </div>
+                    ))}
                 </div>
+
+
             </div>
 
         </section>
