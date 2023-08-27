@@ -26,11 +26,17 @@ Follow these steps to run the password generator locally:
  ```bash
 npm install
 
+## Usage
 
-3. Run the development server:
+Customize your password preferences by selecting the desired options (capital letters, small letters, numbers, symbols) and password length.
+Click the "Generate Password" button to generate a password based on your preferences.
+Click the clipboard icon next to the generated password to copy it to your clipboard.
+The last 5 generated passwords are displayed below the generator. Click on any password to copy it to the clipboard.
 
- ```bash
-npm start
+## Technologies Used
 
+React: JavaScript library for building user interfaces.
+react-hot-toast: A library for displaying toast notifications.
+CSS: Styling the user interface.
 
-4. Open your web browser and navigate to http://localhost:3000.
+## Screenshots
