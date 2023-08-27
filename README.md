@@ -26,6 +26,9 @@ CSS: Styling the user interface.
 
 ## Screenshots
 
+![Password Generator Screenshot 1](https://i.imgur.com/D9RK7BT.png)
+![Password Generator Screenshot 2](https://i.imgur.com/ys8yMKq.png)
+
 ## Getting Started
 
 Follow these steps to run the password generator locally:
