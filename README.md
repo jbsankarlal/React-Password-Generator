@@ -26,6 +26,8 @@ Follow these steps to run the password generator locally:
  ```bash
 npm install
 
+```bash
+
 ## Usage
 
 Customize your password preferences by selecting the desired options (capital letters, small letters, numbers, symbols) and password length.
