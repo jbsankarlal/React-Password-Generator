@@ -23,12 +23,11 @@ Follow these steps to run the password generator locally:
 
    Install dependencies:
 
-bash
-Copy code
+ ```bash
 npm install
-Run the development server:
 
-bash
-Copy code
+Run the development server:
+ ```bash
 npm start
+
 Open your web browser and navigate to http://localhost:3000.
