@@ -11,6 +11,21 @@ A simple password generator built with React that allows users to customize pass
 - Maintains a history of the last 5 generated passwords in local storage.
 - User-friendly interface and responsive design.
 
+## Usage
+
+Customize your password preferences by selecting the desired options (capital letters, small letters, numbers, symbols) and password length.
+Click the "Generate Password" button to generate a password based on your preferences.
+Click the clipboard icon next to the generated password to copy it to your clipboard.
+The last 5 generated passwords are displayed below the generator. Click on any password to copy it to the clipboard.
+
+## Technologies Used
+
+React: JavaScript library for building user interfaces.
+react-hot-toast: A library for displaying toast notifications.
+CSS: Styling the user interface.
+
+## Screenshots
+
 ## Getting Started
 
 Follow these steps to run the password generator locally:
@@ -26,19 +41,5 @@ Follow these steps to run the password generator locally:
  ```bash
 npm install
 
-```bash
 
-## Usage
 
-Customize your password preferences by selecting the desired options (capital letters, small letters, numbers, symbols) and password length.
-Click the "Generate Password" button to generate a password based on your preferences.
-Click the clipboard icon next to the generated password to copy it to your clipboard.
-The last 5 generated passwords are displayed below the generator. Click on any password to copy it to the clipboard.
-
-## Technologies Used
-
-React: JavaScript library for building user interfaces.
-react-hot-toast: A library for displaying toast notifications.
-CSS: Styling the user interface.
-
-## Screenshots
