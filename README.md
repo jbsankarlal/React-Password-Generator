@@ -27,7 +27,9 @@ Follow these steps to run the password generator locally:
 npm install
 
 3. Run the development server:
+
  ```bash
 npm start
+
 
 4. Open your web browser and navigate to http://localhost:3000.
