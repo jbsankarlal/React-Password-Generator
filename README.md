@@ -21,13 +21,13 @@ Follow these steps to run the password generator locally:
    git clone https://github.com/your-username/React-Password-Generator.git
    cd React-Password-Generator
 
-   Install dependencies:
+2. Install dependencies:
 
  ```bash
 npm install
 
-Run the development server:
+3. Run the development server:
  ```bash
 npm start
 
-Open your web browser and navigate to http://localhost:3000.
+4. Open your web browser and navigate to http://localhost:3000.
