@@ -26,6 +26,7 @@ Follow these steps to run the password generator locally:
  ```bash
 npm install
 
+
 3. Run the development server:
 
  ```bash
