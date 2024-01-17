@@ -129,7 +129,7 @@ function App() {
                                 onChange={setValues} />
                         </div>
                         <div className="field">
-                            <label htmlFor="symbol">Symbol</label>
+                            <label htmlFor="Symbol">Symbol</label>
                             <input type="checkbox" id='symbol' name='symbol' checked={values.symbol}
                                 onChange={setValues} />
                         </div>
@@ -138,7 +138,7 @@ function App() {
                 </form>
                 <br />
                 <div className="last-passwords">
-                    <h4 className='password-header'>Last 5 Passwords:</h4><br />
+                    <h4 className='password-header'>Last Passwords:</h4><br />
                     {lastPasswords.map((password, index) => (
                         <div key={index} className="last-password">
                             <div className="input-container">
